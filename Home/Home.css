@@ -1,0 +1,124 @@
+*{
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+}
+
+body, html{
+  width: 100%;
+  height: 100%;
+  background-color: #EAFFFB;
+}
+.header{
+  width: 100%;
+  height: 14%;
+  position: fixed;
+  z-index: 1;
+  background-color: #014034;
+}
+.box-logo{
+  width: 100%;
+  height: 77%;
+}
+.menu{
+  width: 100%;
+  height: 23%;
+  background-color: #002720;
+}
+
+.menu__nav{
+  width: 100%;
+  height: 100%;
+  color: #ffffff;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.menu__nav li a {
+  color: #ffffff;
+}
+
+.container{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.container__slide{
+  width: 80%;
+  height: 65%;
+  display: flex;
+  top: 27%;
+  position: relative;
+  border: 0.1px solid #002720;;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.lista-jogos{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.jogos{
+  width: 80%;
+  height: 70%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: space-between;
+}
+
+.jogo{
+  width: 49%;
+  height: 30%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.jogo__imagem{
+  width: 45%;
+  height: 100%;
+}
+
+.jogo__descricao{
+  width: 45%;
+  height: 100%;
+  text-align: justify;
+}
+
+footer{
+  height: 7%;
+  display: flex;
+  background-color: #014034;
+  align-items: center;
+}
+
+.direitos-autorais{
+  width: 80%;
+  height: 100%;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  margin: 1%;
+}
+.redes-sociais{
+  width: 10%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.social-link{
+  width: 25%;
+  height: 50%;
+  display: flex;
+}

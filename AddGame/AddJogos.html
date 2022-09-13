@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--Links CSS-->
+    <link href="../Cadastro/Cadastro.css" rel="stylesheet" type="text/css" />
+    <link href="./AddJogos.css" rel="stylesheet" type="text/css" />
+    <title>Adicionar Game</title>
+  </head>
+  <body>
+    <form
+      class="game-form"
+      enctype="multipart/form-data"
+      method="post"
+      action="../PHP/PostCreate.php"
+    >
+      <div>
+        <input class="input-img" type="file" name="pic" accept="image/*" />
+        <div class="nome-game">
+          <h4>Nome do Game</h4>
+          <input name="title" type="text" placeholder="Titulo do jogo" />
+        </div>
+      </div>
+      <div class="descri-txt">
+        <h3>Descrição</h3>
+        <textarea
+          name="desc"
+          type="text"
+          placeholder="Descrição do jogo"
+          row="30"
+          cols="30"
+        ></textarea>
+      </div>
+      <div class="btn-jogo">
+        <button>Cancelar</button>
+        <button>Adicionar</button>
+      </div>
+    </form>
+  </body>
+</html>

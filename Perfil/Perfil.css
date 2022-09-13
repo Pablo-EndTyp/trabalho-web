@@ -1,0 +1,70 @@
+.box-perfil{
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.add-jogo{
+  width: 10%;
+  height: 6%;
+  top: 17%;
+  left: 10%;
+  color: #000000;
+  position: relative;
+}
+
+.box-perfil__meus-jogos{ /*Main*/
+  width: 80%;
+  height: 75%;
+  top: 18%;
+  left: 10%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 0.1px solid black;
+  overflow-y: scroll;
+}
+
+.perfil-jogo{ /*Article*/
+  width: 97.5%;
+  height: 32.4%;
+  margin: 1% 0 0.2% 0;
+  display: flex;
+  border: 0.1px solid black;
+}
+
+.jogo-imagem{
+  width: 15%;
+  height: 100%;
+}
+
+.jogo-descricao{
+  width: 70%;
+  height: 100%;
+  padding: 0.7% 1% 0.7% 1%;
+}
+
+.jogo-descricao h3 {
+  margin-bottom: 1%;
+}
+
+.jogo-descricao p{
+  text-align: justify;
+}
+.box-btns{
+  width: 15%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+.box-btns button{
+  width: 28%;
+  height: 14.5%;
+  margin: 9% 0 9% 9%;
+}
+
+footer {
+  position: relative;
+}

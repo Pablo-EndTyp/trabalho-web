@@ -1,0 +1,76 @@
+*{
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  color:#ffffff
+}
+
+body, html{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e0fdf7;
+}
+
+.icon_home{
+  width: 2.9%;
+  height: 5.3%;
+  top: 2%;
+  left: 1.7%;
+  position: absolute;
+}
+
+.icon_home img {
+  width: 100%;
+  height: 100%;
+}
+
+.formulario{
+  width: 30%;
+  height: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #014034;
+  border-radius: 24px;
+}
+
+.formulario__email{
+  width: 80%;
+  height: 15%;
+}
+
+.formulario__email input{
+  width: 100%;
+  height: 69%;
+  color: #000000;
+  padding-left: 1%;
+  border: none;
+  border-radius: 6px;
+}
+
+.formulario__senha{
+  width: 80%;
+  height: 15%;
+}
+
+.formulario__senha input{
+  width: 100%;
+  height: 69%;
+  color: #000000;
+  padding-left: 1%;
+  border: none;
+  border-radius: 6px;
+}
+
+.btn{
+  width: 54%;
+  height: 10%;
+  border: none;
+  border-radius: 9px;
+  background-color: #002720;
+  cursor: pointer;
+}
